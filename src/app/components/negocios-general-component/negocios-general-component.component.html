@@ -1,0 +1,49 @@
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio sections-bg">
+   <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+         <h2>Negocios</h2>
+         <p>*que se encuentra en esta sección*</p>
+      </div>
+
+      <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+         data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+         <div>
+            <ul class="portfolio-flters">
+               <li data-filter="*" class="filter-active">Todos</li>
+               <li data-filter=".filter-111111111">Bar/Almacénes</li>
+               <li data-filter=".filter-kioscos">Kioscos</li>
+               <li data-filter=".filter-444444444">Carnicería</li>
+               <li data-filter=".filter-555555555">Comidas</li>
+            </ul><!-- End Portfolio Filters -->
+         </div>
+
+         <div class="row gy-4 portfolio-container">
+            <!-- Portfolio Item -->
+            <div *ngFor="let item of infoNegocios_json"
+               class="col-xl-4 col-md-6 portfolio-item filter-{{ item.tipoNegocioID}}">
+               <div class="portfolio-wrap">
+                  <a  data-gallery="portfolio-gallery-app"><img src="{{ item.imagenes[0] }}" class="img-fluid"
+                        alt=""></a>
+                  <div class="portfolio-info">
+                     <h4><a (click)="ed(item)" >{{
+                           item.nombre }}</a></h4>
+                     <span class="badge bg-danger text-white">{{ item.tipoNegocio }}</span>
+                     <h4 *ngIf="item.notas != ''" class="mt-2"><span class="badge bg-warning"><i
+                              class="bi bi-exclamation-triangle-fill"></i> {{ item.notas }}</span></h4>
+                  </div>
+               </div>
+            </div>
+            <!-- End Portfolio Item -->
+         </div>
+
+         <div class="row gy-4 portfolio-container">
+            <app-negocio-especifico-component [dataEnviada]="item"></app-negocio-especifico-component>
+         </div>
+
+      </div>
+   </div>
+</section><!-- End Portfolio Section -->
+<!-- End Portfolio Container -->

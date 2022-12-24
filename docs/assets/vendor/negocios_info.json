@@ -1,0 +1,89 @@
+[
+   {
+      "negocioID": 1,
+      "nombre": "Bar y Parador 'La Playa",
+      "direccion": "Burel 3564 esq Ruben Darío",
+      "imagenes": [
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg"
+      ],
+      "urlMaps": "",
+      "horariosLocal": [
+         {
+            "Lunes": "no los sé jaja",
+            "Martes": "no los sé jaja",
+            "Miércoles": "no los sé jaja",
+            "Jueves": "no los sé jaja",
+            "Viernes": "no los sé jaja",
+            "Sábado": "no los sé jaja",
+            "Domingo": "no los sé jaja"
+         }
+      ],
+      "urlWebApp": "",
+      "tipoNegocioID": 111111111,
+      "tipoNegocio": "Bar/Almacen",
+      "notas": [
+         "Horario sin especificar."
+      ]
+   },
+   {
+      "negocioID": 2,
+      "nombre": "El Destino",
+      "direccion": "Burel..",
+      "imagenes": [
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg"
+      ],
+      "urlMaps": "",
+      "horariosLocal": [
+         {
+            "Lunes": "no los sé jaja",
+            "Martes": "no los sé jaja",
+            "Miércoles": "no los sé jaja",
+            "Jueves": "no los sé jaja",
+            "Viernes": "no los sé jaja",
+            "Sábado": "no los sé jaja",
+            "Domingo": "no los sé jaja"
+         }
+      ],
+      "urlWebApp": "",
+      "tipoNegocioID": 111111111,
+      "tipoNegocio": "Almacén",
+      "notas": [
+         "Horario sin especificar."
+      ]
+   },
+   {
+      "negocioID": 4,
+      "nombre": "'El Carrito'",
+      "direccion": "Burel 3562 esq Ruben Darío",
+      "imagenes": [
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg",
+         "https://cdn.pixabay.com/photo/2022/12/13/13/30/bird-7653386_960_720.jpg"
+      ],
+      "urlMaps": "",
+      "horariosLocal": [
+         {
+            "Lunes": "no los sé jaja",
+            "Martes": "no los sé jaja",
+            "Miércoles": "no los sé jaja",
+            "Jueves": "no los sé jaja",
+            "Viernes": "no los sé jaja",
+            "Sábado": "no los sé jaja",
+            "Domingo": "no los sé jaja"
+         }
+      ],
+      "urlWebApp": "",
+      "tipoNegocioID": 555555555,
+      "tipoNegocio": "Comida Rápida",
+      "notas": [
+         "Horario sin especificar."
+      ]
+   }
+]
